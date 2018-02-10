@@ -1,23 +1,36 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (2.3.5)
-    friendly (0.6.0)
-      activesupport (= 2.3.5)
-      rufus-json (= 0.2.3)
+    activesupport (4.1.16)
+      i18n (~> 0.6, >= 0.6.9)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.1)
+      tzinfo (~> 1.1)
+    concurrent-ruby (1.0.5)
+    friendly (0.5.1)
+      activesupport
+      json_pure
       sequel (>= 3.7.0)
       will_paginate
-    json (1.8.3)
+    i18n (0.9.4)
+      concurrent-ruby (~> 1.0)
+    json (1.8.6)
+    json_pure (2.1.0)
+    minitest (5.11.3)
     mysql (2.9.1)
-    rake (10.4.2)
-    rufus-json (0.2.3)
+    rake (12.3.0)
     sequel (3.48.0)
-    will_paginate (3.0.7)
+    thread_safe (0.3.6)
+    tzinfo (1.2.5)
+      thread_safe (~> 0.1)
+    will_paginate (3.1.6)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  activesupport (~> 4.1.11)
   friendly
   json
   mysql
@@ -25,4 +38,4 @@ DEPENDENCIES
   sequel (= 3.48.0)
 
 BUNDLED WITH
-   1.10.6
+   1.16.1
